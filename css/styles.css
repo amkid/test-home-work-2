@@ -2,6 +2,15 @@ body {
   font-family: "Open Sans",
   sans-serif;
 }
+
+/*--скидує крапки в списку--*/
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
 /*-- скачаний шрифт підключаєтся 
 за допомогою цього тега 
   @font-face {
