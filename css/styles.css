@@ -7,6 +7,8 @@ body {
 .list {
   list-style: none;
 }
+
+/*--скидує підкреслення посилань--*/
 .link {
   text-decoration: none;
 }
@@ -17,4 +19,13 @@ body {
     font-family: font;
     src: url(./);
   }
+-- */
+/*-- атрибут пишеться так
+[href]{
+  color: green;
+} всі посилання зеленого кольору
+[href="https: //www.google.com.ua/"] {
+  color: green;
+} всі посилання на 
+google зеленого кольору
 -- */
