@@ -1,0 +1,11 @@
+body {
+  font-family: "Open Sans",
+  sans-serif;
+}
+/*-- скачаний шрифт підключаєтся 
+за допомогою цього тега 
+  @font-face {
+    font-family: font;
+    src: url(./);
+  }
+-- */
