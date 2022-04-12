@@ -20,6 +20,36 @@ body {
 .link {
   text-decoration: none;
 }
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+}
+.btn {
+  font-family: inherit;
+  /*inherit-наслідуй примусово*/
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.after-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  /* or 167% */
+  letter-spacing: 0.02em;
+}
 /*----------------header---------------*/
 .header {
   background-color: gray;
@@ -42,12 +72,6 @@ body {
   color: #FFFFFF;
 }*/
 .header-btn {
-  font-family: inherit;/*inherit-наслідуй примусово*/
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
   color: var(--first-btn-color);
 }
 /*----------------hero---------------*/
@@ -65,49 +89,22 @@ body {
   color: #FF6C00;
 }
 .hero-pre-title {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: rgba(157, 164, 189, 0.6);
 }
 .hero-title {
-  font-family: "Raleway", sans-serif;
-  font-size: 72px;
-  line-height: 1.18;
-  letter-spacing: 0.05em;
   color: var(--first-title-color);
 }
 .hero-after-title {
-  font-size: 18px;
-  line-height: 1.67;
-  /* or 167% */
-  letter-spacing: 0.02em;
   color: #9DA4BD;
 }
 /*----------------about---------------*/
 .about-pre-title {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: #303030;
 }
 .about-title {
-  font-family: "Raleway", sans-serif;
-  font-size: 42px;
-  line-height: 1.17;
-  letter-spacing: 0.05em;
   color: var(--second-title-color);
 }
 .about-after-title {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
-  /* or 167% */
-  letter-spacing: 0.02em;
   color: #555555;
 }
 .about-text {
@@ -119,16 +116,55 @@ body {
   color: #555555;
 }
 .about-btn {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
   color: var(--first-btn-color);
 }
 /*----------------prices---------------*/
+.prices {
+  background-color: #303030;
+}
+.prices-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+  color: var(--first-title-color);
+}
+.prices-item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+.prices-btn {
+  color: var(--first-btn-color);
+}
+/*----------------reasons---------------*/
+.reasons-item-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.reasons-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: #303030;
+}
+.reasons-pre-title {
+  color: #303030;
+}
 
+.reasons-title {
+  color: var(--second-title-color);
+}
+
+.reasons-after-title {
+  color: #555555;
+}
 
 /*-- скачаний шрифт підключаєтся 
 за допомогою цього тега 
