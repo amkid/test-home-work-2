@@ -216,15 +216,12 @@ body {
 .contacts {
   background-color: #303030;
 }
-
 .contacts-title {
   color: var(--first-title-color);
 }
-
 .contacts-address {
   font-style: normal;
 }
-
 .contacts-link {
   font-size: 18px;
   line-height: 1.67;
@@ -239,7 +236,6 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 .contacts-time-text {
   font-weight: 400;
   font-size: 18px;
